@@ -82,27 +82,3 @@ void input(char* string)
 void output(void)
 {
 }
-
-/*
-void mode_encrypt(void)
-{
-    char Sstring[(int)(MAX/2)] = "";
-    char Estring[(int)(MAX/2)] = "";
-    int key[MAX] = {};
-
-    input(Sstring);
-
-    encrypt(Sstring, Estring, key);
-
-    printf("Source string  -> %s\nEncrypt string -> %s\n", Sstring, Estring);
-
-
-    size_t len = strlen(Sstring);
-    for(short c = 0; c < len && c < MAX-1; c++)
-    {
-        if(key[c] > 9) printf("%d", key[c]);
-        else printf("0%d", key[c]);
-    }
-    printf("\n");
-}
-*/
